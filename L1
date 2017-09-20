@@ -1,0 +1,10 @@
+Vue.component('todo', {
+		template: '<li>有没有</li>'
+})
+var app = new Vue({
+		el: '#app',
+		data: {
+			message: '我'
+		}
+})
+注册组件写在前面
